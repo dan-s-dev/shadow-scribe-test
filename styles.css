@@ -1,0 +1,15 @@
+.logo-container {
+	display: flex;
+	flex-direction: row;
+  align-items: center;
+	justify-content: start"
+	width: 100%;
+}
+
+@media (max-width: 640px) {
+	.logo-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
