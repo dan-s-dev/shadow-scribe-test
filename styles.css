@@ -12,4 +12,11 @@
 		flex-direction: column;
 		width: 100%;
 	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		transform: scale(.7);
+		margin: -8rem 0 -8rem 0;
+	}
 }
